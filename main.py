@@ -61,9 +61,9 @@ warnings.filterwarnings('ignore')
 # Stałe konfiguracyjne
 RANDOM_STATE = 42          # Ziarno losowości dla reprodukowalności wyników
 TEST_SIZE = 0.2           # Proporcja zbioru testowego (20%)
-BATCH_SIZE = 256          # Rozmiar paczki dla treningu sieci neuronowej
+BATCH_SIZE = 512          # Rozmiar paczki dla treningu sieci neuronowej
 LEARNING_RATE = 0.001     # Współczynnik uczenia dla sieci neuronowej
-EPOCHS = 100              # Liczba epok treningu sieci neuronowej
+EPOCHS = 50               # Liczba epok treningu sieci neuronowej (zmniejszone dla szybszego treningu)
 PRUNING_AMOUNT = 0.3      # Procent neuronów do przycięcia (30%)
 
 # Ścieżki do plików
